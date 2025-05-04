@@ -17,7 +17,7 @@ function App() {
         md:max-w-2xl shadow-xl" aria-labelledby="faq-heading">
 
           <div className="flex flex-row justify-baseline gap-7">
-            <img src={starIcon} className="w-7 sm:w-8 lg:w-10" />
+            <img src={starIcon} className="w-7 sm:w-8 lg:w-10" alt="" />
             <h1 id="faq-heading" className="text-4xl font-bold text-purple-950 text-center text-clamped-h1">
               FAQs
             </h1>

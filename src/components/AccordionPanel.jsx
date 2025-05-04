@@ -12,7 +12,7 @@ export default function AccordionPanel({ title, text }) {
                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2 "
                         >
                             <h2 className="font-semibold text-left text-purple-950 w-full group-hover:text-purple-600 group-focus-visible:text-purple-600">{title}</h2>
-                            <img src={open ? minus : plus} className="w-8 h-8" />
+                            <img src={open ? minus : plus} className="w-8 h-8" alt="" aria-hidden="true" />
                         </DisclosureButton>
 
                         <DisclosurePanel className="py-4 font-normal text-purple-950 opacity-65">
