@@ -4,7 +4,7 @@ import minus from "/src/assets/images/icon-minus.svg"
 
 export default function AccordionPanel({ title, text }) {
     return (
-        <article className="w-full border-b-2 border-purple-100 last:border-none pb-4">
+        <div className="w-full border-b-2 border-purple-100 last:border-none pb-4">
             <Disclosure>
                 {({ open }) => (
                     <div>
@@ -21,6 +21,6 @@ export default function AccordionPanel({ title, text }) {
                     </div>
                 )}
             </Disclosure>
-        </article>
+        </div>
     )
 }
