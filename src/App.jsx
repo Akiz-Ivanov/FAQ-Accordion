@@ -11,10 +11,10 @@ function App() {
       md:bg-[url('/src/assets/images/background-pattern-desktop.svg')] 
       ">
 
-        <section className="flex flex-col justify-baseline items-start gap-9 w-11/12 bg-white 
+        <section className="flex flex-col justify-baseline items-start gap-9 w-11/12 sm:w-8/12 bg-white
         rounded-lg sm:rounded-xl lg:rounded-2xl
         px-[clamp(1rem,2vw,1.5rem)] py-[clamp(1.5rem,3vw,2rem)]
-         max-w-2xl shadow-xl" aria-labelledby="faq-heading">
+        md:max-w-2xl shadow-xl" aria-labelledby="faq-heading">
 
           <div className="flex flex-row justify-baseline gap-7">
             <img src={starIcon} className="w-7 sm:w-8 lg:w-10" />

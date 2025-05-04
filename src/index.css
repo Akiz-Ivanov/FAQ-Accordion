@@ -16,7 +16,7 @@
 @layer base {
   body {
     font-family: var(--font-sans);
-    font-size: clamp(var(--font-size-body), 2vw, 1.2rem);
+    font-size: clamp(var(--font-size-body), 2.5vw, 1.2rem);
     font-weight: var(--font-weight-normal);
   }
 }
@@ -26,7 +26,7 @@
   --color-white: var(--white);
   --color-purple-100: var(--purple-100);
 
-  --text-body: clamp(var(--font-size-body), 2vw, 1.2rem);
+  --text-body: clamp(var(--font-size-body), 2.5vw, 1.2rem);
   --text-clamped-h1: clamp(2rem, 5vw, 3rem);
 
   --text-purple-600: var(--purple-600);
